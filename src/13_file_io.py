@@ -10,7 +10,8 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
 # YOUR CODE HERE
-text = open("/Users/skinnymac/Desktop/Lambda/lectures/Intro-Python-I/src/foo.txt", "r")
+# text = open("/Users/skinnymac/Desktop/Lambda/lectures/Intro-Python-I/src/foo.txt", "r") but this will never run on anyone else's compy.
+text = open(". /foo.txt", "r")
 print(text.read())
 text.close()
 

@@ -35,3 +35,5 @@ s = "Hello, world!"
 print(s[7:-1])
 # Output just the 8th-12th characters: "world"
 print(s[7:12])
+
+#under the hood, slicing is O(n) time complexity & space complexity

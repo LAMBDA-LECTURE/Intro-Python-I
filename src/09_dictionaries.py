@@ -49,6 +49,8 @@ waypoints[0]={
     "lat": 43, #but there's prolly a way to spread over this. tbd
     "name": "not areal place"
 }
+# or
+waypoints[0].update(name = "not a real place", lon = -130)
 # YOUR CODE HERE
 
 # Write a loop that prints out all the field values for all the waypoints
